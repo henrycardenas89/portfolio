@@ -18,7 +18,7 @@ const portfolio = [
       "PostgreSQL",
       "Axios",
     ],
-    link: "https://grace-shopper-app.onrender.com/",
+    link: "https://github.com/2209-FSA-ginger/GraceShopperProject/",
   },
   {
     title: "radio.wav",
