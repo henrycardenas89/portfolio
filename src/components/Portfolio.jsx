@@ -15,7 +15,7 @@ function Portfolio() {
             {portfolio.map((project, i) => (
               <motion.div
                 whileHover={{ scale: [null, 1.3, 1.1] }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.5 }}
               >
                 <PortfolioItem
                   imgUrl={project.imgUrl}

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import pdf from "../assets/Henry_Cardenas_Resume.pdf";
 
 export default function Intro() {
   return (
@@ -16,7 +17,7 @@ export default function Intro() {
           <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold">
             Henry Cardenas
           </h1>
-          <div className="flex flex-col gap-2 absolute right-0">
+          <div className="flex flex-col gap-2 absolute mt-20 right-0">
             <a
               href="https://www.linkedin.com/in/henry-cardenas-0b98031a9/"
               className="p-2 font-semibold text-gray-400 hover:ease-in duration-300 dark:hover:text-slate-200 hover:text-slate-600 inline-flex items-center space-x-2 rounded-full"
@@ -72,11 +73,22 @@ export default function Intro() {
             Full-Stack Developer
           </p>
 
-          <p className="text-xl max-w-xl mb-6 m-14">
-            👋 Hi, I'm Henry Cardenas. I enjoy creating enriching solutions for
-            clean design, intelligent user interface, and dynamic user
-            experience.
+          <p className="text-xl max-w-xl m-14">
+            👋 Hi, I'm Henry Cardenas. I am a full stack software engineer with
+            10+ years of education experience. Prior to transitioning to
+            software engineering, I developed curriculums and led professional
+            workshops that integrated music technology and digital literacy into
+            the Common Core curriculum. During this time, I discovered that I
+            loved creating smart user interfaces, developing rich web
+            experiences, and resolving problems on websites and applications.
           </p>
+          <a
+            target="_blank"
+            href={pdf}
+            className="text-xl max-w-xl mt-14 mr-14 ml-14"
+          >
+            Download Resume
+          </a>
         </div>
       </motion.div>
     </div>

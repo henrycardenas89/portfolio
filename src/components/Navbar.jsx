@@ -12,7 +12,7 @@ export default function Navbar({ handleThemeSwitch, theme, sun, moon }) {
             smooth={true}
             offset={0}
             delay={50}
-            duration={500}
+            duration={750}
           >
             About
           </Link>
@@ -24,9 +24,21 @@ export default function Navbar({ handleThemeSwitch, theme, sun, moon }) {
             smooth={true}
             offset={0}
             delay={50}
-            duration={500}
+            duration={750}
           >
             Works
+          </Link>
+        </li>
+        <li className="px-8 text-zinc-600 dark:text-stone-300 dark:hover:text-white hover:ease-in duration-150 hover:text-zinc-900 cursor-pointer max-[280px]:px-2">
+          <Link
+            to="resume"
+            spy={true}
+            smooth={true}
+            offset={0}
+            delay={50}
+            duration={750}
+          >
+            Resume
           </Link>
         </li>
         <li className="px-8 text-zinc-600 dark:text-stone-300 dark:hover:text-white hover:ease-in duration-150 hover:text-zinc-900 cursor-pointer max-[280px]:px-2">
@@ -36,11 +48,12 @@ export default function Navbar({ handleThemeSwitch, theme, sun, moon }) {
             smooth={true}
             offset={0}
             delay={50}
-            duration={500}
+            duration={750}
           >
             Contact
           </Link>
         </li>
+
         <button
           type="button"
           onClick={handleThemeSwitch}
